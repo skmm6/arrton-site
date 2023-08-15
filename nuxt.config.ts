@@ -7,4 +7,15 @@ export default defineNuxtConfig({
     plugins: [svgLoader()],
   },
   css: ["~/assets/scss/main.scss"],
+  app: {
+    head: {
+      title: "Nuxt Dojo",
+      meta: [
+        {
+          name: "description",
+          content: "Мы работаем с NUXT 3",
+        },
+      ],
+    },
+  },
 });
