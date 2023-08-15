@@ -10,7 +10,6 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@spiriit/vite-plugin-svg-spritemap": "^1.0.2",
     "@types/node": "^18.17.1",
     "nuxt": "^3.6.5"
   },

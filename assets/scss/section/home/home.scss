@@ -43,7 +43,7 @@
 .services {
   margin-top: 15.8rem;
   &-wrapper {
-    background-image: url(@/img/services-bg.png),
+    background-image: url(@/public/img/services-bg.png),
       linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
     background-repeat: no-repeat;
     background-position: center;

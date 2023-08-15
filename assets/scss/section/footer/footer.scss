@@ -7,8 +7,6 @@
   &__wrapper {
     display: grid;
 
-    max-width: 100%;
-
     grid-template-columns: repeat(2, max-content);
     justify-content: space-between;
 

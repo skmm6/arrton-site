@@ -4,7 +4,7 @@
       <div class="container">
         <nav class="main-nav">
           <a href="#" class="main-nav__logo"
-            ><img src="@/img/logo.png" alt="Logo"
+            ><img src="@/public/img/logo.png" alt="Logo"
           /></a>
           <ul class="main-nav__list">
             <li class="main-nav__link"><a href="#">Контакты</a></li>
@@ -13,9 +13,7 @@
             <li class="main-nav__link"><a href="#">Обратный звонок</a></li>
           </ul>
           <button class="btn mobail-btn">
-            <svg>
-              <use href="__spritemap#sprite-burger-menu"></use>
-            </svg>
+            <BurgerMenuIcon />
           </button>
         </nav>
       </div>
@@ -25,7 +23,7 @@
         <div class="hero-logo-wrapper">
           <img
             class="hero-logo__img"
-            src="@/img/hero-logo.png"
+            src="@/public/img/hero-logo.png"
             alt="Hero-logo"
           />
           <p class="hero__paragraph">Рекламное агентство</p>
@@ -37,23 +35,17 @@
             <ul class="hero-soc__list">
               <li>
                 <a class="hero-soc__link" href="">
-                  <svg>
-                    <use href="__spritemap#sprite-instagram"></use>
-                  </svg>
+                  <InstagramIcon />
                 </a>
               </li>
               <li>
                 <a class="hero-soc__link" href="">
-                  <svg>
-                    <use href="__spritemap#sprite-telegram"></use>
-                  </svg>
+                  <TelegramIcon />
                 </a>
               </li>
               <li>
                 <a class="hero-soc__link" href="">
-                  <svg>
-                    <use href="__spritemap#sprite-vk"></use>
-                  </svg>
+                  <VkIcon />
                 </a>
               </li>
             </ul>
@@ -90,7 +82,11 @@
               заказать множество востребованных на сегодняшний день услуг.
             </p>
           </div>
-          <img class="about-img" src="@/img/home-abus.png" alt="Картинки" />
+          <img
+            class="about-img"
+            src="@/public/img/home-abus.png"
+            alt="Картинки"
+          />
         </div>
         <button class="btn btn-orange about-btn">Каталог</button>
       </div>
@@ -159,7 +155,7 @@
   <footer class="footer">
     <div class="container footer__wrapper">
       <div class="footer__wrapper--left">
-        <img class="footer__logo" src="@/img/logo.png" alt="Логотип" />
+        <img class="footer__logo" src="@/public/img/logo.png" alt="Логотип" />
         <div class="telephone">
           <a class="telephone__link" href="tel:+79493475634"
             >+7 949 347 56 34</a
@@ -174,23 +170,17 @@
           <ul class="social__list">
             <li class="social__item">
               <a href="#">
-                <svg>
-                  <use href="__spritemap#sprite-instagram"></use>
-                </svg>
+                <InstagramIcon />
               </a>
             </li>
             <li class="social__item">
               <a href="#">
-                <svg>
-                  <use href="__spritemap#sprite-telegram"></use>
-                </svg>
+                <TelegramIcon />
               </a>
             </li>
             <li class="social__item">
               <a href="#">
-                <svg>
-                  <use href="__spritemap#sprite-vk"></use>
-                </svg>
+                <VkIcon />
               </a>
             </li>
           </ul>
@@ -208,4 +198,9 @@
   </footer>
 </template>
 
-<script setup></script>
+<script setup>
+import InstagramIcon from "@/assets/icons/instagram.svg";
+import TelegramIcon from "@/assets/icons/telegram.svg";
+import VkIcon from "@/assets/icons/vk.svg";
+import BurgerMenuIcon from "@/assets/icons/burger-menu.svg";
+</script>
