@@ -1,0 +1,126 @@
+.home {
+  background-color: $bg-color;
+  padding-top: 17.6rem;
+  padding-bottom: 17.6rem;
+}
+
+.about {
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 14rem;
+  }
+
+  &-heading {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: $heading-black;
+    margin-bottom: 2rem;
+  }
+
+  &-paragraph {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: $paragraph-color;
+    font-weight: 500;
+    line-height: 1.2;
+
+    &:not(:nth-child(2)) {
+      margin-top: 4.7rem;
+    }
+  }
+
+  &-btn {
+    margin-top: 6.2rem;
+  }
+
+  &-img {
+    max-width: 34rem;
+  }
+}
+
+.services {
+  margin-top: 15.8rem;
+  &-wrapper {
+    background-image: url(@/img/services-bg.png),
+      linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 48px;
+    padding: 10rem 6rem;
+
+    color: $paragraph-color--light;
+  }
+  &-heading {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  &-list {
+    margin-top: 3.2rem;
+
+    list-style: disc;
+    display: grid;
+    gap: 1rem;
+  }
+
+  &-list__item {
+    font-size: 2.4rem;
+  }
+
+  &-btn {
+    margin-top: 3.5rem;
+    padding: 2.6rem 1.4rem;
+  }
+}
+
+.advantages {
+  margin-top: 11.7rem;
+  color: $heading-black;
+  &__wrapper {
+    display: grid;
+    gap: 2.2rem;
+  }
+
+  &__header {
+    grid-column: 1 / -1;
+    grid-row: 1 / span 1;
+    justify-self: center;
+    align-self: center;
+
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 10rem;
+  }
+
+  &__item {
+    display: grid;
+    gap: 1.6rem;
+
+    &--header {
+      font-size: 2.4rem;
+      font-weight: 500;
+      position: relative;
+    }
+    &--paragraph {
+      grid-column: 2 / span 1;
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: $paragraph-color;
+    }
+
+    &--elipse {
+      width: 3.4rem;
+      height: 3.4rem;
+      background-color: $primary;
+      border-radius: 999rem;
+    }
+  }
+}

@@ -1,0 +1,75 @@
+.footer {
+  padding: 2rem 0;
+
+  background-color: $gray-dark--1;
+  color: $paragraph-color--light;
+
+  &__wrapper {
+    display: grid;
+
+    max-width: 100%;
+
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+
+    &--left {
+      display: grid;
+      gap: 2.5rem;
+    }
+  }
+
+  &__logo {
+    max-width: 13.6rem;
+  }
+}
+
+.telephone {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  &__link {
+    display: block;
+    text-decoration: none;
+  }
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &__paragraph {
+    display: block;
+    font-size: 1.6rem;
+  }
+
+  &__line {
+    width: 3rem;
+    height: 0.2rem;
+    background-color: $paragraph-color--light;
+  }
+  &__list {
+    display: flex;
+    gap: 0.7rem;
+
+    svg {
+      width: 27px;
+      height: 27px;
+      fill: $paragraph-color--light;
+    }
+  }
+}
+
+.footer-nav {
+  &__list {
+    height: 100%;
+    display: grid;
+    align-content: space-between;
+  }
+  &__link {
+    font-size: 1.6rem;
+    a {
+      text-decoration: none;
+    }
+  }
+}

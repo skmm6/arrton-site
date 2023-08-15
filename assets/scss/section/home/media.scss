@@ -1,0 +1,42 @@
+@media screen and (max-width: 1000px) {
+  .advantages {
+    &__header {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .about {
+    &-img {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .about {
+    &-img {
+      display: none;
+    }
+    &-heading {
+      font-size: 4rem;
+    }
+  }
+
+  .advantages {
+    &__wrapper {
+      .advantages__list {
+        gap: 5rem;
+      }
+    }
+    &__item {
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px) {
+  .footer {
+    &__wrapper {
+      grid-template-columns: repeat(auto-fit, minmax(40rem, max-content));
+      justify-content: center;
+      &--left {
+        justify-content: center;
+      }
+    }
+    &__logo {
+      justify-self: center;
+    }
+
+    .telephone {
+      align-items: center;
+    }
+  }
+
+  .footer-nav {
+    justify-self: center;
+  }
+}

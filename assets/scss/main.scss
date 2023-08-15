@@ -1,0 +1,21 @@
+@import "@/assets/scss/normalize.scss";
+@import "@/assets/fonts/font.scss";
+
+// OPTIONS
+@import "@/assets/scss/options/colors.scss";
+
+// GENERAL
+@import "@/assets/scss/general.scss";
+
+// btn
+@import "@/assets/scss/UI/btn.scss";
+
+// SECTION
+@import "@/assets/scss/section/header/header.scss";
+@import "@/assets/scss/section/home/home.scss";
+@import "@/assets/scss/section/footer/footer.scss";
+
+// media
+@import "@/assets/scss/media.scss";
+@import "@/assets/scss/section/footer/media.scss";
+@import "@/assets/scss/section/header/media.scss";

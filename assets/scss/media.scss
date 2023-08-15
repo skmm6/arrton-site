@@ -1,0 +1,21 @@
+@import "/assets/scss/section/header/media.scss";
+@import "/assets/scss/section/home/media.scss";
+
+@media only screen and (max-width: 1050px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  html {
+    font-size: 50%;
+  }
+
+  .container {
+    /* 1140px */
+    max-width: 148rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+  }
+}
