@@ -148,6 +148,12 @@
               </p>
             </li>
           </ul>
+          <p class="advantages__cooperate">
+            С нами сотрудничают Allure Kids
+            <a href="http://instagram.com/allure_kids_official" target="_blank"
+              >http://instagram.com/allure_kids_official</a
+            >
+          </p>
         </div>
       </div>
     </section>
